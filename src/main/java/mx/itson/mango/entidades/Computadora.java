@@ -26,10 +26,12 @@ public class Computadora extends DispositivoElectronico {
          else{
              this.espacioDisco -= cantidad;
              return "La cantiadad total del espacio actualizado " + espacioDisco;
-         } 
-
+         }
         }
-    
+        @Override
+        public double calcularDepreciacion(double precio) {
+        return precio * 0.12;
+        }
     
     
     

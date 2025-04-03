@@ -18,12 +18,15 @@ public class Main {
         Television tv = new Television("Samsung","XDWA","Negro", 50, 67);
         Computadora pc = new Computadora("Asus","Ninja2000","Blanca", 128, 512);
         
-        tv.encender();
+        
+        System.out.println(tv.encender());
+        System.out.println(tv.encender());
+        
         tv.cambiarVolumen(62);
         
         pc.encender();
         
-        pc.disminuirEspacio(128);
+        pc.disminuirEspacio(128); 
     }
     
 }
